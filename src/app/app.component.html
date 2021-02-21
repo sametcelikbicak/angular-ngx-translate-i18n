@@ -1,6 +1,33 @@
 <h1>{{ title }}</h1>
 
-
+<label translate>changeLanguage</label>
 <select #language (change)="onChange(language.value)">
-<option *ngFor="let lang of translate.getLangs()" [value]="lang">{{lang | translate}}</option>
+    <option *ngFor="let lang of translateService.getLangs()" [value]="lang">{{
+        lang | translate
+    }}</option>
 </select>
+
+<h3>{{ "keywordDefinition" | translate }}</h3>
+
+<table>
+	<tr>
+		<th translate>key</th>
+		<th translate>value</th>
+	</tr>
+	<tr>
+		<td>example1</td>
+		<td translate>example1</td>
+	</tr>
+	<tr>
+		<td>example2.title</td>
+		<td translate>example2.title</td>
+	</tr>
+	<tr>
+		<td>example3.title</td>
+		<td translate>example3.title</td>
+	</tr>
+	<tr>
+		<td>example3.title.subtitle</td>
+		<td translate>example3.title.subtitle</td>
+	</tr>
+</table>
