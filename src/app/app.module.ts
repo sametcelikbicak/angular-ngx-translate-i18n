@@ -20,7 +20,8 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
         provide: TranslateLoader,
         useFactory: HttpLoaderFactory,
         deps: [HttpClient]
-      }
+      },
+      defaultLanguage: "tr"
     })
   ],
   declarations: [AppComponent],
