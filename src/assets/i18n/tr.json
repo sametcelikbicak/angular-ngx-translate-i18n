@@ -11,5 +11,6 @@
     "example3":{
       "title":"Örnek 3 başlık",
       "title.subtitle":"Örnek 3 alt başlık"
-    }
+    },
+    "example4.withCustomValue":"Örnek 4: {{customValue}}"
 }

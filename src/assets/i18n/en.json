@@ -11,5 +11,6 @@
     "example3":{
       "title":"Example 3 title",
       "title.subtitle":"Example 3 sub title"
-    }
+    },
+    "example4.withCustomValue":"Example 4: {{customValue}}"
 }
