@@ -1,0 +1,16 @@
+{
+    "tr":"Türkçe",
+    "en":"English",
+    "se":"Svenska",
+    "changeLanguage":"Dili değiştir",
+    "keywordDefinition":"i18N anahtar kelime tanımı örnekleri",
+    "key":"Anahtar",
+    "value":"Değer",
+    "example1":"Örnek 1",
+    "example2.title":"Örnek 2 başlık",
+    "example3":{
+      "title":"Örnek 3 başlık",
+      "title.subtitle":"Örnek 3 alt başlık"
+    },
+    "example4.withCustomValue":"Örnek 4: {{customValue}}"
+}

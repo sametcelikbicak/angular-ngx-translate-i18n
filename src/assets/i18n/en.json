@@ -1,0 +1,16 @@
+{
+    "tr":"Türkçe",
+    "en":"English",
+    "se":"Svenska",
+    "changeLanguage":"Change language",
+    "keywordDefinition":"i18n keyword definition examples",
+    "key":"Key",
+    "value":"Value",
+    "example1":"Example 1",
+    "example2.title":"Example 2 title",
+    "example3":{
+      "title":"Example 3 title",
+      "title.subtitle":"Example 3 sub title"
+    },
+    "example4.withCustomValue":"Example 4: {{customValue}}"
+}

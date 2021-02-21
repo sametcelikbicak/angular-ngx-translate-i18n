@@ -1,0 +1,16 @@
+{
+    "tr":"Türkçe",
+    "en":"English",
+    "se":"Svenska",
+    "changeLanguage":"Ändra språk",
+    "keywordDefinition":"i18n exempel på nyckelordsdefinition",
+    "key":"Nyckel",
+    "value":"Värde",
+    "example1":"Exempel 1",
+    "example2.title":"Exempel 2 titel",
+    "example3":{
+      "title":"Exempel 3 titel",
+      "title.subtitle":"Exempel 3 texta"
+    },
+    "example4.withCustomValue":"Exempel 4: {{customValue}}"
+}
