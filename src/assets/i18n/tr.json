@@ -12,5 +12,6 @@
       "title":"Örnek 3 başlık",
       "title.subtitle":"Örnek 3 alt başlık"
     },
-    "example4.withCustomValue":"Örnek 4: {{customValue}}"
+    "example4.withCustomValue":"Örnek 4: {{customValue}}",
+    "example5.fromTypeScript":"Örnek 5"
 }
