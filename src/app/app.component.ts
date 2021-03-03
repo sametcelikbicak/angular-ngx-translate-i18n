@@ -14,6 +14,10 @@ export class AppComponent {
     this.translateService.addLangs(["tr", "en", "se"]);
   }
 
+  public get translationFormTypeScript(): string {
+    return this.translateService.instant("example5.fromTypeScript");
+  }
+
   public onChange(selectedLanguage: string): void {
     this.translateService.use(selectedLanguage);
   }

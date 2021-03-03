@@ -12,5 +12,6 @@
       "title":"Example 3 title",
       "title.subtitle":"Example 3 sub title"
     },
-    "example4.withCustomValue":"Example 4: {{customValue}}"
+    "example4.withCustomValue":"Example 4: {{customValue}}",
+    "example5.fromTypeScript":"Example 5"
 }
